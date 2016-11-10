@@ -10,29 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApplication2
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CadastroUsuario.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CadastroUsuario : Window
     {
-        Usuario usuario;
-
-        public MainWindow()
+        public CadastroUsuario()
         {
             InitializeComponent();
         }
-        public MainWindow(Usuario usuario)
+
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
-            this. usuario = usuario;
-            label.Content = usuario.Nome;
 
         }
 
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+             
+        }
     }
 }
